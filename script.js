@@ -1,7 +1,7 @@
 function allowDrop(ev) {
   ev.preventDefault();
   // let score = score + 1
-  
+
 }
 
 function drag(ev) {
@@ -23,7 +23,6 @@ const input = document.querySelector('input')
 
 
 button.addEventListener('click', (e) => {
-  greeting.innerHTML = "nice job"
-  
-})
+  greeting.innerHTML = "<h6>nice job</h6>"
 
+})

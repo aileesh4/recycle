@@ -5,6 +5,11 @@ body {
   margin: 2em;
   background-color: #5ac75b;
   padding: 20px;
+  /* background-image: url:'https://www.positive.news/wp-content/uploads/2019/03/feat-1800x0-c-center.jpg' */
+  background-image: url("https://static1.visitestonia.com/images/2890339/Estonian_forest_reasons_to_visit_Sven_Zacek.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -13,6 +18,11 @@ h1 {
   font-size: 500%;
   padding: 10px 10px 10px 10px;
   font-family: 'Lexend Exa', sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  justify-content: center;
+  margin-left: 25%;
 
 }
 
@@ -40,10 +50,18 @@ a {
 
 }
 
-#trash {
+.background {
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.trash {
   font-size: 300%;
   font-family: 'Lexend Exa', sans-serif;
-
+  color: black;
+  opacity: 1.0;
+  margin-left: 25%;
 }
 
 #div1 {
@@ -51,10 +69,9 @@ a {
   display: flex;
   justify-content: center;
   height: 200px;
-  /* border: 2px solid black; */
   position: absolute;
   left: 225px;
-  top: 20%;
+  top: 27%;
 }
 
 #div2 {
@@ -62,10 +79,9 @@ a {
   display: flex;
   justify-content: center;
   height: 200px;
-  /* border: 2px solid black; */
   position: absolute;
   left: 475px;
-  top: 20%;
+  top: 27%;
 }
 
 #div3 {
@@ -73,10 +89,9 @@ a {
   display: flex;
   justify-content: center;
   height: 200px;
-  /* border: 2px solid black; */
   position: absolute;
   left: 725px;
-  top: 20%;
+  top: 27%;
 }
 
 #div4 {
@@ -84,10 +99,9 @@ a {
   display: flex;
   justify-content: center;
   height: 200px;
-  /* border: 2px solid black; */
   position: absolute;
   left: 975px;
-  top: 20%;
+  top: 27%;
 }
 
 #div5 {
@@ -174,4 +188,30 @@ a {
   font-size: 1000%;
   display: flex;
   top: 90%;
+}
+
+h6 {
+  color:black;
+  background-color: white;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+}
+
+h4 {
+  color: black;
+  background: white;
+  border-radius: 10px;
+  font-family: 'Lexend Exa', sans-serif;
+  text-align: center;
+  padding: 15px;
+
+}
+
+#div1, #div2, #div3, #div4 {
+  color: white;
+  font-size: 150%;
+  font-family: 'Lexend Exa', sans-serif;
+  /* background-color: black; */
 }
