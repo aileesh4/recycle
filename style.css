@@ -4,8 +4,6 @@ body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
   background-color: #5ac75b;
-/*   border-style: solid; */
-/*   border-radius: 10px; */
   padding: 20px;
 }
 
@@ -13,10 +11,6 @@ h1 {
   color: black;
   text-align: center;
   font-size: 500%;
-/*   background-color: #5ac75b; */
-/*   border-style: solid; */
-/*   border-radius: 10px; */
-/*   box-shadow: 10px 10px 5px; */
   padding: 10px 10px 10px 10px;
   font-family: 'Lexend Exa', sans-serif;
 
@@ -33,7 +27,6 @@ button {
 .container {
   border-style: solid black;
   border-width: 5px;
-/*   background-color: white; */
 }
 
 a {
@@ -41,21 +34,10 @@ a {
 }
 
 .col {
-/*   display: inline-grid; */
-/*   margin: 0 auto; */
   text-align: center;
   margin: 20px;
 
 }
-
-/* #mydiv { */
-/*   position: absolute; */
-/* } */
-
-/* #mydivheader { */
-/*   padding: 10px; */
-/* } */
-
 
 #trash {
   font-size: 300%;
@@ -64,48 +46,44 @@ a {
 }
 
 #div1 {
-/*   float: left; */
   width:200px;
   display: flex;
   justify-content: center;
   height: 200px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   position: absolute;
   left: 225px;
   top: 20%;
 }
 
 #div2 {
-/*   float: left; */
   width:200px;
   display: flex;
   justify-content: center;
   height: 200px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   position: absolute;
   left: 475px;
   top: 20%;
 }
 
 #div3 {
-/*   float: left; */
   width:200px;
   display: flex;
   justify-content: center;
   height: 200px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   position: absolute;
   left: 725px;
   top: 20%;
 }
 
 #div4 {
-/*   float: left; */
   width:200px;
   display: flex;
   justify-content: center;
   height: 200px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   position: absolute;
   left: 975px;
   top: 20%;
