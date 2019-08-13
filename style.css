@@ -25,11 +25,9 @@ h1 {
 button {
   display: grid;
   margin:0 auto;
-  font-size: 30px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 5px 5px 5px;
-  
 }
 
 .container {
@@ -47,7 +45,7 @@ a {
 /*   margin: 0 auto; */
   text-align: center;
   margin: 20px;
-  
+
 }
 
 /* #mydiv { */
@@ -62,7 +60,7 @@ a {
 #trash {
   font-size: 300%;
   font-family: 'Lexend Exa', sans-serif;
-  
+
 }
 
 #div1 {
