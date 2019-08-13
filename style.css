@@ -1,0 +1,200 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #5ac75b;
+/*   border-style: solid; */
+/*   border-radius: 10px; */
+  padding: 20px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 500%;
+/*   background-color: #5ac75b; */
+/*   border-style: solid; */
+/*   border-radius: 10px; */
+/*   box-shadow: 10px 10px 5px; */
+  padding: 10px 10px 10px 10px;
+  font-family: 'Lexend Exa', sans-serif;
+
+}
+
+button {
+  display: grid;
+  margin:0 auto;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 5px;
+  
+}
+
+.container {
+  border-style: solid black;
+  border-width: 5px;
+/*   background-color: white; */
+}
+
+a {
+  font-family: 'Lexend Exa', sans-serif;
+}
+
+.col {
+/*   display: inline-grid; */
+/*   margin: 0 auto; */
+  text-align: center;
+  margin: 20px;
+  
+}
+
+/* #mydiv { */
+/*   position: absolute; */
+/* } */
+
+/* #mydivheader { */
+/*   padding: 10px; */
+/* } */
+
+
+#trash {
+  font-size: 300%;
+  font-family: 'Lexend Exa', sans-serif;
+  
+}
+
+#div1 {
+/*   float: left; */
+  width:200px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border: 2px solid black;
+  position: absolute;
+  left: 225px;
+  top: 20%;
+}
+
+#div2 {
+/*   float: left; */
+  width:200px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border: 2px solid black;
+  position: absolute;
+  left: 475px;
+  top: 20%;
+}
+
+#div3 {
+/*   float: left; */
+  width:200px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border: 2px solid black;
+  position: absolute;
+  left: 725px;
+  top: 20%;
+}
+
+#div4 {
+/*   float: left; */
+  width:200px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border: 2px solid black;
+  position: absolute;
+  left: 975px;
+  top: 20%;
+}
+
+#div5 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 200px;
+  top: 60%;
+}
+
+#div6 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 400px;
+  top: 60%;
+}
+
+#div7 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 600px;
+  top: 60%;
+}
+
+#div8 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 800px;
+  top: 60%;
+}
+
+#div9 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 1000px;
+  top: 60%;
+}
+
+#div10 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 200px;
+  top: 80%;
+}
+
+#div11{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 400px;
+  top: 80%;
+}
+
+#div12 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 600px;
+  top: 80%;
+}
+
+#div13 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 800px;
+  top: 80%;
+}
+
+#div14 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 1000px;
+  top: 80%;
+}
+
+#p {
+  font-size: 1000%;
+  display: flex;
+  top: 90%;
+}
